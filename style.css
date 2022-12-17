@@ -31,6 +31,7 @@ ul {
     padding: 0 30px
 }
 
+/* Navbar */
 .navbar {
     background: #9a8f97;
 }
@@ -38,6 +39,7 @@ ul {
 .navbar .container {
     display: flex;
     justify-content: flex-end;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
 .navbar ul {
@@ -58,14 +60,54 @@ ul {
     color: white;
 }
 
-.overview .container h1 {
+/* Whenever I decide to add in logo 
+.navbar .logo {
+    color: #333;
+    font-size: 20px;
     font-weight: bold;
-    font-size: 100px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+*/
+
+/* Hero & Overview */
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bussin-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bussin-title h1 {
+    font-weight: bold;
+    font-size: 75px;
     font-style: italic;
 }
 
 .overview .container {
     display: flex;
     align-items: center;
-    flex-shrink: 2;
+    gap: 50px;
+}
+
+/* Button placement and style */
+.header-text .btn {
+    border: none;
+    border-radius: 8px;
+    background: #a73f2d;
+    color: white;
+    padding: 8px 24px;
+}
+.header-text .btn {
+	background-color:#b34332;
+}
+.header-text .btn {
+	position:relative;
+	top:1px;
 }
