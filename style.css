@@ -34,6 +34,9 @@ ul {
 /* Navbar */
 .navbar {
     background: #9a8f97;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .navbar .container {
@@ -97,17 +100,21 @@ ul {
 }
 
 /* Button placement and style */
-.header-text .btn {
+.header-text a {
+    display: flex;
     border: none;
     border-radius: 8px;
     background: #a73f2d;
-    color: white;
     padding: 8px 24px;
-}
-.header-text .btn {
-	background-color:#b34332;
-}
-.header-text .btn {
-	position:relative;
 	top:1px;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.btn {
+    background: #a73f2d;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
 }
